@@ -1,0 +1,26 @@
+/*@font-face {
+    font-family: "Round";
+    src: url("fonts/typo-round/Typo_Round_Regular_Demo.otf") format("opentype");
+    src: url("fonts/Round_Corner_Font/RoundCornerFont.ttf");
+}
+
+@font-face { font-family: RoundCorner;
+        src: url('Typo_Round_Regular_Demo'),
+            url('RoundCornerFont');
+
+}*/
+
+body {
+    background-color:#cff1ef;
+}
+hr {
+    background-color: #cff1ef;
+    border-style: dotted none none;
+    border-width: 10px;
+    width: 20%;
+    border-color: #fbcffc;
+}
+h1, h3 {
+    font-family: 'RoundCorner';
+    color: #be79df;
+}
