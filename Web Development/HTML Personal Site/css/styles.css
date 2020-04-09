@@ -14,17 +14,18 @@
 
 body {
     background-color:#cff1ef;
+    /*text-align: center;*/
 }
 hr {
     background-color: #cff1ef;
     border-style: dotted none none;
     border-width: 10px;
-    width: 20%;
+    width: 30%;
     border-color: #fbcffc;
 }
 
 hr:hover {
-    border-color: red;
+    border-color: hotpink;
 }
 
 h1, h3 {
@@ -32,11 +33,6 @@ h1, h3 {
     color: #be79df;
 }
 
-/*
-img {
-    background-color: red;
-}
-*/
 /**********CLASS SELECTORS**********/
 
 .profile {
@@ -45,4 +41,65 @@ img {
 
 .onePiece {
     background-color: blue;
+}
+
+/**********MENU STYLES**********/
+/*This is the first Div Element*/
+.menu {
+    width: 100px;
+    background-color: hotpink;
+    border-radius: 25px;
+    position: relative;
+    /*display: inline-block;*/
+    float: right;
+    /*position: fixed;*/
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/*This is the H2 element*/
+.drop {
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+/*Content in drop down hidden*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    opacity: 1;
+    min-width: 100px;
+    /*box-shadow: 0px 5px 5px rgba(.2,.2,.2,.8);*/
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    background-color: white;
+    /*opacity: 1;*/
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    border: solid black;
+    border-radius: 25px;
+    box-shadow: 1px 5px 5px 1px rgba(.2, .2, .2, .2);
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #fbcffc;
+}
+
+/* Show the dropdown menu on hover */
+.menu:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.menu:hover {
+    background-color: teal;
 }
