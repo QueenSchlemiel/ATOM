@@ -10,6 +10,8 @@
 
 }*/
 
+/**********TAG SELECTORS**********/
+
 body {
     background-color:#cff1ef;
 }
@@ -20,7 +22,27 @@ hr {
     width: 20%;
     border-color: #fbcffc;
 }
+
+hr:hover {
+    border-color: red;
+}
+
 h1, h3 {
     font-family: 'RoundCorner';
     color: #be79df;
+}
+
+/*
+img {
+    background-color: red;
+}
+*/
+/**********CLASS SELECTORS**********/
+
+.profile {
+    background-color: teal;
+}
+
+.onePiece {
+    background-color: blue;
 }
